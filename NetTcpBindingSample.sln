@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetTcpBindingSample.Contracts", "NetTcpBindingSample.Contracts\NetTcpBindingSample.Contracts.csproj", "{2F3AE08B-93F2-4175-A68F-FD54155E52C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetTcpBindingSample.Domain", "NetTcpBindingSample.Domain\NetTcpBindingSample.Domain.csproj", "{8B25EB33-22D1-47C8-B36C-6485C8D79B5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetTcpBindingSample.Repository", "NetTcpBindingSample.Repository\NetTcpBindingSample.Repository.csproj", "{C2F02D5C-28C7-47BF-9403-D8267D805EC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetTcpBindingSample.Services", "NetTcpBindingSample.Services\NetTcpBindingSample.Services.csproj", "{4B94B09E-7A37-4785-9161-0389F40B8F5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetTcpBindingSample.Container", "NetTcpBindingSample.Container\NetTcpBindingSample.Container.csproj", "{00CBDCC8-473B-47A9-BD26-30585C8815E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetTcpBindingSample.Application", "NetTcpBindingSample.Application\NetTcpBindingSample.Application.csproj", "{1055F739-CD19-4FE7-A4B7-2DADD883D666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetTcpBindingSample.Data", "NetTcpBindingSample.Data\NetTcpBindingSample.Data.csproj", "{C27C1D17-F4E1-42E7-A833-3D747B6E8BB2}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://developmentastpz.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = NetTcpBindingSample.Application\\NetTcpBindingSample.Application.csproj
+		SccProjectName1 = NetTcpBindingSample.Application
+		SccLocalPath1 = NetTcpBindingSample.Application
+		SccProjectUniqueName2 = NetTcpBindingSample.Container\\NetTcpBindingSample.Container.csproj
+		SccProjectName2 = NetTcpBindingSample.Container
+		SccLocalPath2 = NetTcpBindingSample.Container
+		SccProjectUniqueName3 = NetTcpBindingSample.Contracts\\NetTcpBindingSample.Contracts.csproj
+		SccProjectName3 = NetTcpBindingSample.Contracts
+		SccLocalPath3 = NetTcpBindingSample.Contracts
+		SccProjectUniqueName4 = NetTcpBindingSample.Data\\NetTcpBindingSample.Data.csproj
+		SccProjectName4 = NetTcpBindingSample.Data
+		SccLocalPath4 = NetTcpBindingSample.Data
+		SccProjectUniqueName5 = NetTcpBindingSample.Domain\\NetTcpBindingSample.Domain.csproj
+		SccProjectName5 = NetTcpBindingSample.Domain
+		SccLocalPath5 = NetTcpBindingSample.Domain
+		SccProjectUniqueName6 = NetTcpBindingSample.Repository\\NetTcpBindingSample.Repository.csproj
+		SccProjectName6 = NetTcpBindingSample.Repository
+		SccLocalPath6 = NetTcpBindingSample.Repository
+		SccProjectUniqueName7 = NetTcpBindingSample.Services\\NetTcpBindingSample.Services.csproj
+		SccProjectName7 = NetTcpBindingSample.Services
+		SccLocalPath7 = NetTcpBindingSample.Services
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F3AE08B-93F2-4175-A68F-FD54155E52C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F3AE08B-93F2-4175-A68F-FD54155E52C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F3AE08B-93F2-4175-A68F-FD54155E52C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F3AE08B-93F2-4175-A68F-FD54155E52C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B25EB33-22D1-47C8-B36C-6485C8D79B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B25EB33-22D1-47C8-B36C-6485C8D79B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B25EB33-22D1-47C8-B36C-6485C8D79B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B25EB33-22D1-47C8-B36C-6485C8D79B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F02D5C-28C7-47BF-9403-D8267D805EC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F02D5C-28C7-47BF-9403-D8267D805EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F02D5C-28C7-47BF-9403-D8267D805EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F02D5C-28C7-47BF-9403-D8267D805EC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B94B09E-7A37-4785-9161-0389F40B8F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B94B09E-7A37-4785-9161-0389F40B8F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B94B09E-7A37-4785-9161-0389F40B8F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B94B09E-7A37-4785-9161-0389F40B8F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00CBDCC8-473B-47A9-BD26-30585C8815E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00CBDCC8-473B-47A9-BD26-30585C8815E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00CBDCC8-473B-47A9-BD26-30585C8815E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00CBDCC8-473B-47A9-BD26-30585C8815E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1055F739-CD19-4FE7-A4B7-2DADD883D666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1055F739-CD19-4FE7-A4B7-2DADD883D666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1055F739-CD19-4FE7-A4B7-2DADD883D666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1055F739-CD19-4FE7-A4B7-2DADD883D666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C27C1D17-F4E1-42E7-A833-3D747B6E8BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27C1D17-F4E1-42E7-A833-3D747B6E8BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27C1D17-F4E1-42E7-A833-3D747B6E8BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27C1D17-F4E1-42E7-A833-3D747B6E8BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
